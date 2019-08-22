@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/106/859/original/abstract-free-vector-music-equalizer.jpg);
+    background-size: fill;
+}
+h1#intro {
+    text-align: center;
+    color: rgba(148, 17, 12, 0.775);
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 50px; 
+}
+nav button {
+    flex-direction: row;
+    text-align: center;
+    background-image: url();
+}
+section {
+    color: darkred;
+    text-align: center
+}

@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://img0.etsystatic.com/003/0/6090723/il_fullxfull.369587316_llro.jpg);
+    
+    background-size: fill;
+}
+h1#intro {
+    text-align: center;
+    color: rgba(148, 17, 12, 0.775);
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 50px; 
+}
+nav button {
+    flex-direction: row;
+    text-align: center;
+    background-image: url();
+}
+section {
+    color: darkred;
+    text-align: center;
+}

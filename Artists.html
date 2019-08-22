@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The World of Music</title>
+        <meta name="description" content="Music">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Artists.css">
+        <link href="https://fonts.googleapis.com/css?family=Yellowtail|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <script src="Final.Project.js" async defer></script>
+        <header> 
+            <h1 id="intro">The World of Music</h1>
+            <nav>
+                <button type="button" id="home">
+                    <a href="Final.Project.html">Home</a>
+                </button>
+                <button type="button" id="instrument">
+                    <a href="Instruments.html">Instruments</a>
+                </button>
+                <button type="button" id="songs">
+                    <a href="Artists.html">Songs</a>
+                </button>
+                <button>
+                    <a href="About.html" id="about">About</a>
+                </button>
+            </nav>
+        </header>
+        <section>
+            <h2>Songs</h2>
+            <h3>Here, you can listen to some music (made by me) to show various types of genres!</h3> 
+            <br>
+            <h3>Click below to hear some music!</h3>
+            <section>
+                <audio id="myAudio">
+                    <source src="Alt Rock Audio.ogg" type="audio/ogg">
+                    <source src="Alt Rock Audio.mp3" type="audio/mpeg">
+                </audio>
+                <h3>Click the buttons to play or pause Alternate Rock!</h3>
+                <button onclick="playAudio()" type="button">Play Audio</button>
+                <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+                    <br>
+            </section>
+            <section>
+                <audio id="myAudio2">
+                        <source src="Petal to the Metal.ogg" type="audio/ogg">
+                        <source src="Petal to the Metal.mp3" type="audio/mpeg">
+                </audio>
+                <h3>Click the buttons to play or pause Heavy Rock!</h3>
+                <button onclick="playAudio2()" type="button">Play Audio</button>
+                <button onclick="pauseAudio2()" type="button">Pause Audio</button> 
+            </section>
+            <section>
+                    <audio id="myAudio3">
+                            <source src="Wrapper Music.ogg" type="audio/ogg">
+                            <source src="Wrapper Music.mp3" type="audio/mpeg">
+                    </audio>
+                    <h3>Click the buttons to play or pause Hip Hop!</h3>
+                    <button onclick="playAudio3()" type="button">Play Audio</button>
+                    <button onclick="pauseAudio3()" type="button">Pause Audio</button> 
+                </section>
+        </section>
+    </body>
+</html>
