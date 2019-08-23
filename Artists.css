@@ -1,6 +1,6 @@
- body{
+ body.artists{
     background-image: url(https://i.pinimg.com/736x/fd/16/86/fd168635edbe2e9ea453171c2668b37e.jpg);
-    background-size: 100%, 100%;
+    background-size: cover;
 }
 h1#intro {
     text-align: center;

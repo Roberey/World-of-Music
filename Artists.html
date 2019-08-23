@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="Artists.css">
         <link href="https://fonts.googleapis.com/css?family=Yellowtail|Zhi+Mang+Xing&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="artists">
         
         <script src="Final.Project.js" async defer></script>
         <header> 
@@ -29,7 +29,7 @@
                 </button>
             </nav>
         </header>
-        <section>
+        <section id="songs">
             <h2>Songs</h2>
             <h3>Here, you can listen to some music (made by me) to show various types of genres!</h3> 
             <br>
@@ -43,8 +43,6 @@
                 <button onclick="playAudio()" type="button">Play Audio</button>
                 <button onclick="pauseAudio()" type="button">Pause Audio</button> 
                     <br>
-            </section>
-            <section>
                 <audio id="myAudio2">
                         <source src="Petal to the Metal.ogg" type="audio/ogg">
                         <source src="Petal to the Metal.mp3" type="audio/mpeg">

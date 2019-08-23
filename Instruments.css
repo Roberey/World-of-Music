@@ -1,7 +1,7 @@
 body {
     background-image: url(https://img0.etsystatic.com/003/0/6090723/il_fullxfull.369587316_llro.jpg);
     
-    background-size: fill;
+    background-size: cover;
 }
 h1#intro {
     text-align: center;
